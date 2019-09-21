@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8"></meta>
+<head><tittle></tittle></head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+body,h1 {font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+.bgimg {
+    background-image: url('man_smoke.jpg');
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+</style>
+<body>
+	<div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
+	<div class="w3-display-topleft w3-padding-large w3-xlarge">
+   MEMBER
+  </div>
+  <div class="w3-display-middle">
+    <h1 class="w3-jumbo w3-animate-top">PROFILE</h1>
+    <hr class="w3-border-grey" style="margin:auto;width:40%">
+<form name= "account_login" method ="post" action="add.php">
+NAME:<br><input type = "text" name = "account_name1" placeholder="請輸入姓名"><br>
+PASSWORD:<br><input type = "password" name= "account_password2" placeholder="請輸入密碼"><br>
+ENTER PASSWOED AGAIN:<br><input type = "password" name = "account_password3" placeholder="再輸入一次密碼"><br>
+SEX:<br><input type = "text" name= "account_gender"placeholder="請輸入性別"><br>
+AGE:<br><input type = "text" name = "account_age"placeholder="請輸入年齡"><br>
+PHONE:<br><input type = "text" name = "account_phone"placeholder="請輸入電話"><br>
+ADDR:<br><input type = "text" name= "account_address"placeholder="請輸入地址">
+   <br>
+   <br><input type ="submit" value="CONFIRM " method ="post" action="add.php">
+</form>
+</body>
+</html>

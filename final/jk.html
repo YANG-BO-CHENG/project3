@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8"></meta>
+<head><tittle></tittle></head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+body,h1 {font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+.bgimg {
+    background-image: url('photographer.jpg');
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+</style>
+<body>
+<div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
+	<div class="w3-display-topleft w3-padding-large w3-xlarge">
+    BANK
+  </div>
+  <div class="w3-display-middle">
+    <h1 class="w3-jumbo w3-animate-top">Member</h1>
+    <hr class="w3-border-grey" style="margin:auto;width:40%">
+<form name= "account_login" method ="post" action="in.php">
+ACCOUNT: <br><input type = "text" name = "account_name"><br>
+
+PASSWORD:<br><input type = "password" name= "account_password"><br>
+   DEPOSIT :<br><input type = "text" name = "input_money"><br>
+   SAVINGS :<br><input type = "text" name = "output_money"><br>
+ <br><input type ="submit" value="CONFIRM">    
+ 
+   </form>
+   <br>
+<input type ="button" onclick="javascript:location.href='http://localhost/final/jk2.html'" value="CREATE MEMBER" method ="post" action="add.php"></input>  
+
+</body>
+</html>
